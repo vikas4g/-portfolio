@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vikas kushwaha</title>
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+ -->
+
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="" alt="Vikas Kushwaha" id="image" width="80" style="border-radius:25px">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vikas Kushwaha">Vikas Kushwaha</h1>
+
+          <p class="title">Web developer / UIUX designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">0112it201037@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9691133262</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 04, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal, Madhy Padesh, BHART</address>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="contact-info">
+              <p class="contact-title" style="margin-left:44%">Resume</p>
+
+              <a id="downloadLink" style="display:none" href="Vikas_kushwaha.pdf" download="YourPortfolio.pdf">Download
+                PDF</a>
+              <button id="downloadButton1"
+                style="border: 2px solid hsl(45, 100%, 72%); padding:3px 7px;border-radius:10px;color :hsl(0, 0%, 100%);margin-left:40%  ">Download</button>
+            </div>
+
+          </li>
+
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+
+
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am an aspiring professional based in Bhopal, Madhya Pradesh, currently immersed in my studies focusing on
+            graphics design, Python programming, UI/UX design, and web development.
+          </p>
+
+          <p>
+            <span style="color: hsl(45, 100%, 72%); ">My passion lies in simplifying
+              complex problems into visually appealing and user-friendly solutions. </span> Despite being a fresher, I
+            bring
+            dedication and enthusiasm to blend creativity with technical expertise. I believe in adding a personal touch
+            to designs, making them both attractive and intuitive.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Grapics </h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites and make python program with oops at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality UI design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Logo Design</h4>
+
+                <p class="service-item-text">
+                  I make high-quality Logos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!-- links -->
+
+        <section class="Links">
+
+          <h3 class="h3 Links-title">Links</h3>
+
+          <ul class="Links-list has-scrollbar">
+
+            <li class="Links-item">
+              <a href="https://leetcode.com/Vikas4g/">
+                <img src="lcode.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="Links-item">
+              <a href="https://github.com/vikas4g">
+                <img src="github.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="Links-item">
+              <a href="https://www.behance.net/vktivkti">
+                <img src="behance.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="Links-item">
+              <a href="https://dribbble.com/Vikas_4G">
+                <img src="dribble.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="Links-item">
+              <a href="https://replit.com/@VikasVikas4G">
+                <img src="replit.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="Links-item">
+              <a href="https://masterbundles.com/vendor-dashboard/">
+                <img src="mbundle.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bansal Institute of Science and Technology , Bhopal</h4>
+
+              <span>BTech ( IT )</span> <span>2020 - 2024</span>
+
+              <p class="timeline-text">
+                Exploreing various aspects of IT, including programming, software development, and problem-solving.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Higher Secendory School , Khimlasa</h4>
+
+              <span>12th</span> <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Acquired knowledge in various subjects, developing a foundation for higher education and future
+                endeavors.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Higher Secendory School , Khimlasa</h4>
+
+              <span>10th</span><span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Overcame challenges, gained foundational knowledge, and prepared for the next academic phase.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Goldman Sachs Software Engineering Virtual Experience</h4>
+
+              <span>January 2024</span>
+
+              <p class="timeline-text">
+                Completed a job simulation as a Goldman Sachs governance analyst responsible for assessing IT security
+                and suggesting improvements <a id="downloadLink" style="display:none" href="goldman.pdf"
+                  download="certificate.pdf">Download
+                  certificate</a>
+                <button id="downloadButton2"
+                  style="border: 2px solid hsl(45, 100%, 72%); padding:3px 7px;border-radius:10px;color :hsl(0, 0%, 100%); ">Download</button>
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AWS APAC Solutions Architecture virtual experience</h4>
+
+              <span>January 2024</span>
+
+              <p class="timeline-text">
+                Described my proposed architecture in plain language ensuring my client understood how it works and how
+                costs will be calculated for it.
+              </p>
+              <a id="downloadLink" style="display:none" href="aws.pdf" download="certificate.pdf">Download
+                certificate</a>
+              <button id="downloadButton3"
+                style="border: 2px solid hsl(45, 100%, 72%); padding:3px 7px;border-radius:10px;color :hsl(0, 0%, 100%); ">Download</button>
+              </p>
+
+            </li>
+            <!-- 
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+
+
+
+
+        <!-- ---------------------------------skill -->
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML,CSS,JAVASCRIPT</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LOGO Design / Graphics design</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">My SQL</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        <!-- ----------------------------------------skill section-------------------- -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">TOOLS</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+          </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Illustrater</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Replit</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git Github</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Vs Code</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Canva</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+    </ul>
+
+        </section>
+      </article>
+
+
+
+
+
+
+
+      <button title="projecct" class="filter-select" data-select>
+
+      </button>
+
+
+
+
+
+
+
+
+
+      <!-- -------------------------------------------------------------------------------------------- - #BLOG -->
+
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">project</h2>
+        </header>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shopzy E - Commerce Web App </h4>
+
+              <span>Technology Used:</span> <span>HTML, Bootstrap, Javascript, Python, Django</span>
+
+              <p class="timeline-text">
+                <strong>Shopzy :</strong> A Python-based e-commerce platform with Django framework
+                and SQLite database. <br>
+                <strong>User-Friendly :</strong> Features a responsive interface built with Bootstrap,
+                HTML, and JavaScript. <br>
+                <strong> Key Functions :</strong> Includes product search, order tracking, multiple
+                payment options, and automatic email notifications. <br>
+                <strong> Customer Support :</strong> Shopzy provides a user-friendly contact form for
+                customers to reach out with inquiries or concerns
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Movie Recommendation System</h4>
+
+              <span>Technology Used :</span> <span>HTML, CSS, Javascript, Python, Django, Numpy
+              </span>
+
+              <p class="timeline-text">
+                <strong>Personalized Movie Recommendations :</strong> Python-based system uses
+                machine learning to offer customized movie suggestions. <br>
+                <strong>Enhanced Movie Experience :</strong>
+                Customized recommendations improve
+                the viewing experience. <br>
+                <strong> Seamless Integration :</strong> Works seamlessly with user habits for relevant
+                movie recommendations.
+                <br>
+
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Virtual Assistant </h4>
+
+              <span>Technology Used :</span><span> Python, web api ,OPENAI API,
+              </span>
+
+              <p class="timeline-text">
+                <strong>Speech Recognition :</strong>
+                Utilizes Python's SpeechRecognition library for
+                accurate conversion of spoken words to text.. <br>
+                <strong>Task Automation :</strong>
+                Performs a variety of tasks based on user requests,
+                such as sending emails, setting reminders, and providing information. <br>
+                <strong> API Integration :</strong>
+                Connects with external APIs to fetch data and enhance
+                the assistant's functionality.
+                <br>
+                Allows users to interact with the virtual assistant through voice
+                commands.
+              </p>
+
+
+
+
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        ---------------------------------------------------------------------- #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1702933350902!5m2!1sen!2sin!6m8!1m7!1sqAAYOGxG_041jt_9OLM7_g!2m2!1d24.20345404086676!2d78.36476960276899!3f200.73218472208458!4f21.437402847905147!5f0.7820865974627469"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+        <ul class="social-list" style="margin-top: 10px;">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vikas-kushwaha-00b85222a/" class="social-link">
+              <iconify-icon icon="ri:linkedin-fill"></iconify-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/khimlasa_our_memories/?next=%2F" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://x.com/Vikasku12758711?t=t_b5q60ekjslaRX2wXpx8w&s=09" class="social-link">
+              <iconify-icon icon="pajamas:x"></iconify-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </article>
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    document.querySelector('.contact-form form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      emailjs.init('wtf1c-PXh7wv4u17U'); // Replace 'YOUR_PUBLIC_KEY' with the actual Public Key
+
+      emailjs.sendForm('service_s9lt7bq', 'template_a1608b2', this)
+        .then(function (response) {
+          console.log('Email sent!', response.status, response.text);
+          alert('Email sent successfully!');
+        }, function (error) {
+          console.error('Error sending email:', error);
+          alert('Oops! Something went wrong.');
+        });
+    });
+  </script>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
